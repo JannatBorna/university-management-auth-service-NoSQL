@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/jannatborna/Documents/WEB-DEVELOPER/Next-Level-WD/Miss-6-SQL/UV-auth-service-noSQL/logs/winston/errors/.b842ecef09d2f42bbea506c35d1612684e3ab560-audit.json",
+    "files": [
+        {
+            "date": 1694767890465,
+            "name": "/Users/jannatborna/Documents/WEB-DEVELOPER/Next-Level-WD/Miss-6-SQL/UV-auth-service-noSQL/logs/winston/errors/phu-2023-15-09-14-error.log",
+            "hash": "ec523db066d5e1ab9d7e5a0d1237831e0ac016f9917a28ab588f2ac4dd724e04"
+        },
+        {
+            "date": 1694768789442,
+            "name": "/Users/jannatborna/Documents/WEB-DEVELOPER/Next-Level-WD/Miss-6-SQL/UV-auth-service-noSQL/logs/winston/errors/phu-2023-15-09-15-error.log",
+            "hash": "ff4a15d24b6d6fa27bb496a4aa5b07f275d6675cb5771a6fa2feb86fb9d28d5d"
+        }
+    ],
+    "hashType": "sha256"
+}
