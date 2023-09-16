@@ -14,6 +14,7 @@ import {
 } from './academicSemester.interface';
 import { AcademicSemester } from './academicSemester.model';
 
+//create
 const createSemester = async (
   payload: IAcademicSemester
 ): Promise<IAcademicSemester> => {
@@ -24,6 +25,7 @@ const createSemester = async (
   return result;
 };
 
+//single data
 const getSingleSemester = async (
   id: string
 ): Promise<IAcademicSemester | null> => {
@@ -31,6 +33,7 @@ const getSingleSemester = async (
   return result;
 };
 
+//all data fetch
 const getAllsemesters = async (
   filters: IAcademicSemesterFilters,
   paginationOptions: IPaginationOptions
@@ -86,6 +89,7 @@ const getAllsemesters = async (
   };
 };
 
+//update
 const updateSemester = async (
   id: string,
   payload: Partial<IAcademicSemester>
@@ -104,6 +108,7 @@ const updateSemester = async (
   return result;
 };
 
+//delete
 const deleteSemester = async (
   id: string
 ): Promise<IAcademicSemester | null> => {
