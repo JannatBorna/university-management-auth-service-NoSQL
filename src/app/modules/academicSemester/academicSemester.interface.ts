@@ -35,7 +35,7 @@ export type IAcademicSemesterFilters = {
 
 export type IAcademicSemesterCreatedEvent = {
   title: string;
-  year: number;
+  year: string;
   code: string;
   startMonth: string;
   endMonth: string;
