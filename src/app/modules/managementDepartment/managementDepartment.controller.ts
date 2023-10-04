@@ -34,7 +34,7 @@ const getAllDepartments = catchAsync(async (req: Request, res: Response) => {
   sendResponse<IManagementDepartment[]>(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Management departments fetched successfully',
+    message: 'Management departments retrieved successfully',
     meta: result.meta,
     data: result.data,
   });
@@ -47,7 +47,7 @@ const getSingleDepartment = catchAsync(async (req: Request, res: Response) => {
   sendResponse<IManagementDepartment>(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Management department fetched successfully',
+    message: 'Management department retieved successfully',
     data: result,
   });
 });
